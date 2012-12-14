@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44F7989167B14CF004FAD4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F7988167B14CF004FAD4C /* UIKit.framework */; };
+		C44F798B167B14CF004FAD4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F798A167B14CF004FAD4C /* Foundation.framework */; };
+		C44F798D167B14CF004FAD4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F798C167B14CF004FAD4C /* CoreGraphics.framework */; };
+		C44F7993167B14CF004FAD4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C44F7991167B14CF004FAD4C /* InfoPlist.strings */; };
+		C44F7995167B14CF004FAD4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F7994167B14CF004FAD4C /* main.m */; };
+		C44F7999167B14CF004FAD4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F7998167B14CF004FAD4C /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C44F7984167B14CF004FAD4C /* Diancai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diancai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44F7988167B14CF004FAD4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C44F798A167B14CF004FAD4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C44F798C167B14CF004FAD4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C44F7990167B14CF004FAD4C /* Diancai-Info.plist */ = {isa = PBXFileReference; path = "Diancai-Info.plist"; sourceTree = "<group>"; };
+		C44F7992167B14CF004FAD4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C44F7994167B14CF004FAD4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C44F7996167B14CF004FAD4C /* Diancai-Prefix.pch */ = {isa = PBXFileReference; path = "Diancai-Prefix.pch"; sourceTree = "<group>"; };
+		C44F7997167B14CF004FAD4C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C44F7998167B14CF004FAD4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44F7981167B14CF004FAD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44F7989167B14CF004FAD4C /* UIKit.framework in Frameworks */,
+				C44F798B167B14CF004FAD4C /* Foundation.framework in Frameworks */,
+				C44F798D167B14CF004FAD4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44F7979167B14CF004FAD4C = {
+			isa = PBXGroup;
+			children = (
+				C44F798E167B14CF004FAD4C /* Diancai */,
+				C44F7987167B14CF004FAD4C /* Frameworks */,
+				C44F7985167B14CF004FAD4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44F7985167B14CF004FAD4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44F7984167B14CF004FAD4C /* Diancai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44F7987167B14CF004FAD4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C44F7988167B14CF004FAD4C /* UIKit.framework */,
+				C44F798A167B14CF004FAD4C /* Foundation.framework */,
+				C44F798C167B14CF004FAD4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C44F798E167B14CF004FAD4C /* Diancai */ = {
+			isa = PBXGroup;
+			children = (
+				C44F7997167B14CF004FAD4C /* AppDelegate.h */,
+				C44F7998167B14CF004FAD4C /* AppDelegate.m */,
+				C44F798F167B14CF004FAD4C /* Supporting Files */,
+			);
+			path = Diancai;
+			sourceTree = "<group>";
+		};
+		C44F798F167B14CF004FAD4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44F7990167B14CF004FAD4C /* Diancai-Info.plist */,
+				C44F7991167B14CF004FAD4C /* InfoPlist.strings */,
+				C44F7994167B14CF004FAD4C /* main.m */,
+				C44F7996167B14CF004FAD4C /* Diancai-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44F7983167B14CF004FAD4C /* Diancai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44F799C167B14CF004FAD4C /* Build configuration list for PBXNativeTarget "Diancai" */;
+			buildPhases = (
+				C44F7980167B14CF004FAD4C /* Sources */,
+				C44F7981167B14CF004FAD4C /* Frameworks */,
+				C44F7982167B14CF004FAD4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diancai;
+			productName = Diancai;
+			productReference = C44F7984167B14CF004FAD4C /* Diancai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44F797B167B14CF004FAD4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C44F797E167B14CF004FAD4C /* Build configuration list for PBXProject "Diancai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C44F7979167B14CF004FAD4C;
+			productRefGroup = C44F7985167B14CF004FAD4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44F7983167B14CF004FAD4C /* Diancai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44F7982167B14CF004FAD4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44F7993167B14CF004FAD4C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44F7980167B14CF004FAD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44F7995167B14CF004FAD4C /* main.m in Sources */,
+				C44F7999167B14CF004FAD4C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C44F7991167B14CF004FAD4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44F7992167B14CF004FAD4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44F799A167B14CF004FAD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C44F799B167B14CF004FAD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44F799D167B14CF004FAD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diancai/Diancai-Prefix.pch";
+				INFOPLIST_FILE = "Diancai/Diancai-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C44F799E167B14CF004FAD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diancai/Diancai-Prefix.pch";
+				INFOPLIST_FILE = "Diancai/Diancai-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44F797E167B14CF004FAD4C /* Build configuration list for PBXProject "Diancai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44F799A167B14CF004FAD4C /* Debug */,
+				C44F799B167B14CF004FAD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44F799C167B14CF004FAD4C /* Build configuration list for PBXNativeTarget "Diancai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44F799D167B14CF004FAD4C /* Debug */,
+				C44F799E167B14CF004FAD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44F797B167B14CF004FAD4C /* Project object */;
+}
