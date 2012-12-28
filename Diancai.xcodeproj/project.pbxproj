@@ -7,25 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58DACCF3167B584500BE8EFF /* CaileiObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DACCF2167B584500BE8EFF /* CaileiObj.m */; };
+		58DACD18167B63A800BE8EFF /* CaidanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DACD16167B63A800BE8EFF /* CaidanViewController.m */; };
+		58DACD19167B63A800BE8EFF /* CaidanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58DACD17167B63A800BE8EFF /* CaidanViewController.xib */; };
+		58DBAF8A167C158500A3A99A /* DatabaseObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DBAF89167C158500A3A99A /* DatabaseObj.m */; };
+		58DBAF8D167C172B00A3A99A /* CaiObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DBAF8C167C172B00A3A99A /* CaiObj.m */; };
+		58DBAF90167C175000A3A99A /* YidianObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DBAF8F167C175000A3A99A /* YidianObj.m */; };
+		58DBAF9A167C1E0400A3A99A /* CaidanViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DBAF99167C1E0400A3A99A /* CaidanViewCell.m */; };
+		58DBAF9C167C1E3500A3A99A /* CaidanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58DBAF9B167C1E3500A3A99A /* CaidanCell.xib */; };
 		C44F7989167B14CF004FAD4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F7988167B14CF004FAD4C /* UIKit.framework */; };
 		C44F798B167B14CF004FAD4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F798A167B14CF004FAD4C /* Foundation.framework */; };
 		C44F798D167B14CF004FAD4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F798C167B14CF004FAD4C /* CoreGraphics.framework */; };
 		C44F7993167B14CF004FAD4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C44F7991167B14CF004FAD4C /* InfoPlist.strings */; };
 		C44F7995167B14CF004FAD4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F7994167B14CF004FAD4C /* main.m */; };
 		C44F7999167B14CF004FAD4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F7998167B14CF004FAD4C /* AppDelegate.m */; };
+		C44F79A0167B14E5004FAD4C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F799F167B14E5004FAD4C /* libsqlite3.dylib */; };
+		C44F79A2167B153A004FAD4C /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44F79A1167B153A004FAD4C /* Main.xib */; };
+		C44F79AD167B1797004FAD4C /* PlausibleDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44F79AC167B1797004FAD4C /* PlausibleDatabase.framework */; };
+		C44F79B5167B19AD004FAD4C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F79B3167B19AD004FAD4C /* MainViewController.m */; };
+		C44F79B6167B19AD004FAD4C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44F79B4167B19AD004FAD4C /* MainViewController.xib */; };
+		C44F79BA167B1A14004FAD4C /* YidianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F79B8167B1A14004FAD4C /* YidianViewController.m */; };
+		C44F79BB167B1A14004FAD4C /* YidianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44F79B9167B1A14004FAD4C /* YidianViewController.xib */; };
+		C44F79BE167B20DA004FAD4C /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C44F79BD167B20D9004FAD4C /* MainViewCell.m */; };
+		C44F79C0167B21F7004FAD4C /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44F79BF167B21F7004FAD4C /* MainViewCell.xib */; };
+		C44F79CA167B27AF004FAD4C /* jiushui.png in Resources */ = {isa = PBXBuildFile; fileRef = C44F79C9167B27AF004FAD4C /* jiushui.png */; };
+		C44F79CC167B27B7004FAD4C /* tianpin.png in Resources */ = {isa = PBXBuildFile; fileRef = C44F79CB167B27B7004FAD4C /* tianpin.png */; };
+		C44F79CE167B27BD004FAD4C /* xican.png in Resources */ = {isa = PBXBuildFile; fileRef = C44F79CD167B27BD004FAD4C /* xican.png */; };
+		C44F79D0167B27C2004FAD4C /* zhongcan.png in Resources */ = {isa = PBXBuildFile; fileRef = C44F79CF167B27C2004FAD4C /* zhongcan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58D5F3C9167C4C4D004CB483 /* Caidb.rdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caidb.rdb; sourceTree = "<group>"; };
+		58DACCF1167B584500BE8EFF /* CaileiObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaileiObj.h; sourceTree = "<group>"; };
+		58DACCF2167B584500BE8EFF /* CaileiObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaileiObj.m; sourceTree = "<group>"; };
+		58DACD15167B63A800BE8EFF /* CaidanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaidanViewController.h; sourceTree = "<group>"; };
+		58DACD16167B63A800BE8EFF /* CaidanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaidanViewController.m; sourceTree = "<group>"; };
+		58DACD17167B63A800BE8EFF /* CaidanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaidanViewController.xib; sourceTree = "<group>"; };
+		58DBAF88167C157D00A3A99A /* DatabaseObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseObj.h; sourceTree = "<group>"; };
+		58DBAF89167C158500A3A99A /* DatabaseObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseObj.m; sourceTree = "<group>"; };
+		58DBAF8B167C172B00A3A99A /* CaiObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaiObj.h; sourceTree = "<group>"; };
+		58DBAF8C167C172B00A3A99A /* CaiObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaiObj.m; sourceTree = "<group>"; };
+		58DBAF8E167C175000A3A99A /* YidianObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YidianObj.h; sourceTree = "<group>"; };
+		58DBAF8F167C175000A3A99A /* YidianObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YidianObj.m; sourceTree = "<group>"; };
+		58DBAF98167C1E0400A3A99A /* CaidanViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaidanViewCell.h; sourceTree = "<group>"; };
+		58DBAF99167C1E0400A3A99A /* CaidanViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaidanViewCell.m; sourceTree = "<group>"; };
+		58DBAF9B167C1E3500A3A99A /* CaidanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CaidanCell.xib; sourceTree = "<group>"; };
 		C44F7984167B14CF004FAD4C /* Diancai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diancai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44F7988167B14CF004FAD4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C44F798A167B14CF004FAD4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C44F798C167B14CF004FAD4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C44F7990167B14CF004FAD4C /* Diancai-Info.plist */ = {isa = PBXFileReference; path = "Diancai-Info.plist"; sourceTree = "<group>"; };
+		C44F7990167B14CF004FAD4C /* Diancai-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diancai-Info.plist"; sourceTree = "<group>"; };
 		C44F7992167B14CF004FAD4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C44F7994167B14CF004FAD4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C44F7996167B14CF004FAD4C /* Diancai-Prefix.pch */ = {isa = PBXFileReference; path = "Diancai-Prefix.pch"; sourceTree = "<group>"; };
-		C44F7997167B14CF004FAD4C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C44F7996167B14CF004FAD4C /* Diancai-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diancai-Prefix.pch"; sourceTree = "<group>"; };
+		C44F7997167B14CF004FAD4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C44F7998167B14CF004FAD4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C44F799F167B14E5004FAD4C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C44F79A1167B153A004FAD4C /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		C44F79AC167B1797004FAD4C /* PlausibleDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlausibleDatabase.framework; sourceTree = "<group>"; };
+		C44F79B2167B19AD004FAD4C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C44F79B3167B19AD004FAD4C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C44F79B4167B19AD004FAD4C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C44F79B7167B1A14004FAD4C /* YidianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YidianViewController.h; sourceTree = "<group>"; };
+		C44F79B8167B1A14004FAD4C /* YidianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YidianViewController.m; sourceTree = "<group>"; };
+		C44F79B9167B1A14004FAD4C /* YidianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YidianViewController.xib; sourceTree = "<group>"; };
+		C44F79BC167B20D9004FAD4C /* MainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewCell.h; sourceTree = "<group>"; };
+		C44F79BD167B20D9004FAD4C /* MainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewCell.m; sourceTree = "<group>"; };
+		C44F79BF167B21F7004FAD4C /* MainViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
+		C44F79C9167B27AF004FAD4C /* jiushui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiushui.png; sourceTree = "<group>"; };
+		C44F79CB167B27B7004FAD4C /* tianpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tianpin.png; sourceTree = "<group>"; };
+		C44F79CD167B27BD004FAD4C /* xican.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xican.png; sourceTree = "<group>"; };
+		C44F79CF167B27C2004FAD4C /* zhongcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhongcan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +85,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44F79A0167B14E5004FAD4C /* libsqlite3.dylib in Frameworks */,
 				C44F7989167B14CF004FAD4C /* UIKit.framework in Frameworks */,
 				C44F798B167B14CF004FAD4C /* Foundation.framework in Frameworks */,
 				C44F798D167B14CF004FAD4C /* CoreGraphics.framework in Frameworks */,
+				C44F79AD167B1797004FAD4C /* PlausibleDatabase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58DBAF86167C156900A3A99A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				58D5F3C9167C4C4D004CB483 /* Caidb.rdb */,
+				58DBAF89167C158500A3A99A /* DatabaseObj.m */,
+				58DBAF88167C157D00A3A99A /* DatabaseObj.h */,
+				58DBAF8B167C172B00A3A99A /* CaiObj.h */,
+				58DBAF8C167C172B00A3A99A /* CaiObj.m */,
+				58DBAF8E167C175000A3A99A /* YidianObj.h */,
+				58DBAF8F167C175000A3A99A /* YidianObj.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		C44F7979167B14CF004FAD4C = {
 			isa = PBXGroup;
 			children = (
+				C44F79CF167B27C2004FAD4C /* zhongcan.png */,
+				C44F79CD167B27BD004FAD4C /* xican.png */,
+				C44F79CB167B27B7004FAD4C /* tianpin.png */,
+				C44F79C9167B27AF004FAD4C /* jiushui.png */,
+				C44F799F167B14E5004FAD4C /* libsqlite3.dylib */,
 				C44F798E167B14CF004FAD4C /* Diancai */,
 				C44F7987167B14CF004FAD4C /* Frameworks */,
 				C44F7985167B14CF004FAD4C /* Products */,
@@ -62,6 +135,7 @@
 		C44F7987167B14CF004FAD4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C44F79AC167B1797004FAD4C /* PlausibleDatabase.framework */,
 				C44F7988167B14CF004FAD4C /* UIKit.framework */,
 				C44F798A167B14CF004FAD4C /* Foundation.framework */,
 				C44F798C167B14CF004FAD4C /* CoreGraphics.framework */,
@@ -72,9 +146,28 @@
 		C44F798E167B14CF004FAD4C /* Diancai */ = {
 			isa = PBXGroup;
 			children = (
+				58DBAF86167C156900A3A99A /* Database */,
 				C44F7997167B14CF004FAD4C /* AppDelegate.h */,
 				C44F7998167B14CF004FAD4C /* AppDelegate.m */,
 				C44F798F167B14CF004FAD4C /* Supporting Files */,
+				C44F79A1167B153A004FAD4C /* Main.xib */,
+				C44F79B2167B19AD004FAD4C /* MainViewController.h */,
+				C44F79B3167B19AD004FAD4C /* MainViewController.m */,
+				C44F79B4167B19AD004FAD4C /* MainViewController.xib */,
+				58DACCF1167B584500BE8EFF /* CaileiObj.h */,
+				58DACCF2167B584500BE8EFF /* CaileiObj.m */,
+				C44F79BC167B20D9004FAD4C /* MainViewCell.h */,
+				C44F79BD167B20D9004FAD4C /* MainViewCell.m */,
+				C44F79BF167B21F7004FAD4C /* MainViewCell.xib */,
+				58DACD15167B63A800BE8EFF /* CaidanViewController.h */,
+				58DACD16167B63A800BE8EFF /* CaidanViewController.m */,
+				58DACD17167B63A800BE8EFF /* CaidanViewController.xib */,
+				58DBAF98167C1E0400A3A99A /* CaidanViewCell.h */,
+				58DBAF99167C1E0400A3A99A /* CaidanViewCell.m */,
+				58DBAF9B167C1E3500A3A99A /* CaidanCell.xib */,
+				C44F79B7167B1A14004FAD4C /* YidianViewController.h */,
+				C44F79B8167B1A14004FAD4C /* YidianViewController.m */,
+				C44F79B9167B1A14004FAD4C /* YidianViewController.xib */,
 			);
 			path = Diancai;
 			sourceTree = "<group>";
@@ -141,6 +234,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C44F7993167B14CF004FAD4C /* InfoPlist.strings in Resources */,
+				C44F79A2167B153A004FAD4C /* Main.xib in Resources */,
+				C44F79B6167B19AD004FAD4C /* MainViewController.xib in Resources */,
+				C44F79BB167B1A14004FAD4C /* YidianViewController.xib in Resources */,
+				C44F79C0167B21F7004FAD4C /* MainViewCell.xib in Resources */,
+				C44F79CA167B27AF004FAD4C /* jiushui.png in Resources */,
+				C44F79CC167B27B7004FAD4C /* tianpin.png in Resources */,
+				C44F79CE167B27BD004FAD4C /* xican.png in Resources */,
+				C44F79D0167B27C2004FAD4C /* zhongcan.png in Resources */,
+				58DACD19167B63A800BE8EFF /* CaidanViewController.xib in Resources */,
+				58DBAF9C167C1E3500A3A99A /* CaidanCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +256,15 @@
 			files = (
 				C44F7995167B14CF004FAD4C /* main.m in Sources */,
 				C44F7999167B14CF004FAD4C /* AppDelegate.m in Sources */,
+				C44F79B5167B19AD004FAD4C /* MainViewController.m in Sources */,
+				C44F79BA167B1A14004FAD4C /* YidianViewController.m in Sources */,
+				C44F79BE167B20DA004FAD4C /* MainViewCell.m in Sources */,
+				58DACCF3167B584500BE8EFF /* CaileiObj.m in Sources */,
+				58DACD18167B63A800BE8EFF /* CaidanViewController.m in Sources */,
+				58DBAF8A167C158500A3A99A /* DatabaseObj.m in Sources */,
+				58DBAF8D167C172B00A3A99A /* CaiObj.m in Sources */,
+				58DBAF90167C175000A3A99A /* YidianObj.m in Sources */,
+				58DBAF9A167C1E0400A3A99A /* CaidanViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +330,10 @@
 		C44F799D167B14CF004FAD4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Diancai/Diancai-Prefix.pch";
 				INFOPLIST_FILE = "Diancai/Diancai-Info.plist";
@@ -229,6 +345,10 @@
 		C44F799E167B14CF004FAD4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Diancai/Diancai-Prefix.pch";
 				INFOPLIST_FILE = "Diancai/Diancai-Info.plist";
@@ -256,6 +376,7 @@
 				C44F799E167B14CF004FAD4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
